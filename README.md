@@ -18,7 +18,7 @@ You need to do the following steps:
 git clone https://github.com/vcc-chat/vcc_rpc.git —-depth 1
 cd vcc_rpc
 python -m venv env
-. env/bin/activate.fish # Change this if you do not use fish
+. env/bin/activate
 python -m pip install -r requirements.txt
 nohup python server/main.py &
 nohup python services/chat.py &
